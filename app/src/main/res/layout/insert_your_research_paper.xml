@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editTextPaperTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Paper Title"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/editTextAuthorName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Author Name"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/editTextAbstract"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Abstract"
+                android:inputType="textMultiLine"/>
+
+            <!-- Add more fields as needed -->
+
+            <Button
+                android:id="@+id/buttonSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
